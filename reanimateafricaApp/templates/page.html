@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+    <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+    <title>Reanimate Africa</title>
+    {% load static %}	
+    <link rel="stylesheet" href="{% static 'css/page.css' %}">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<body style="background-color: black">
+  <!-- #212529" -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <a class="navbar-brand"><img src="{% static 'img/tag.png' %}" alt= "logo" style= "width:35px; height:30px;"></a>
+            <span class= "navbar-text">        </span>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourprojects">Our Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus" >Contact Us </a>
+                </li>
+                <li><a class="navbar-brand navbar-brand box-1 wow  wow bounceInRight" data-wow-duration="4s" href="#"><img src="{% static 'img/linkedIn.png' %}" alt= "linkedin" style= "width:30px; height:30px;"></a></li>
+                <li><a class="navbar-brand navbar-brand box-1 wow  wow bounceInRight" data-wow-duration="4s" href="https://www.instagram.com/reanimateafrica/"><img src="{% static 'img/instagram.png' %}" alt= "instagram" style= "width:30px; height:30px;"></a></li>
+                <li><a class="navbar-brand navbar-brand box-1 wow  wow bounceInRight" data-wow-duration="4s" href="https://www.facebook.com/reanimateafrica/"><img src="{% static 'img/facebook.png' %}" alt= "facebook" style= "width:30px; height:30px;"></a></li>
+                <li><a class="navbar-brand navbar-brand box-1 wow  wow bounceInRight" data-wow-duration="4s" href="mailto:lanrewajus.scripts@gmail.com?Subject=Let's%20Connect"><img src="{% static 'img/gmail.png' %}" alt= "email" style= "width:35px; height:28px;"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/background.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <img class="box-1 wow bounceInUp center" data-wow-duration="2s" src="{% static 'img/logosm.png' %}" alt= "..." style= "opacity: .5; margin-left: 80px; width: 1105px; height:200px;">
+        <!-- style= "margin-left: 415px; width: 430px; height:320px;" -->
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <div class="jumbotron"style= "background-color: black; opacity: 1; background-image: url('/static/img/CARD ORANGE.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="aboutus">
+                    <div class="row box-1 wow bounceInUp center" data-wow-duration="2s">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                            <h2 class="display-4" style="text-align: center; color: whitesmoke;">About Us</h2>
+                            <p style="text-align: justify; color: whitesmoke;" >Every idea and concept for conceiving anything comes from our thoughts within. Through colour, shape, texture, space, light, sound, scent, weather, height, depth, life and death. All these are stored up in our subconscious until we decide to bring the idea into existence. At that point, we then gradually create into physicality our animated thoughts for others to understand through form, sight, speech, and the general knowledge of sketches.</p>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                            <h3 style="text-align: center; color: whitesmoke;">Let us discuss on your next project.</h3>
+                            <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                            <h2 class="display-4" style="text-align: center; color: whitesmoke;">Our Mission</h2>
+                            <p style="text-align: justify; color: whitesmoke;">We are all about professionalism and creating outstanding design delivery for all our clients. Customer satisfaction is the sole purpose of our establishment. Any idea which is general is what we at REANIMATE rethink, replan, recreate into something entirely different and better. The ideas you dream about in your deepest thoughts, REANIMATE transforms into your reality. Living your dream in your reality everyday is a great feeling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+              <h5 class="header col s12 light">bla bla bla</h5>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="" alt="..."></div>
+    </div> -->
+    <div class="jumbotron" style= "background-color: black; opacity: 1; background-image: url('/static/img/CARD BLACK.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="ourprojects">
+                    <div class="row box-1 wow bounceInUp center" data-wow-duration="2s" data-wow-delay="0s">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                            <h2 class="display-4" style=" color: #eab23d; text-align: center;">Our Projects</h2>
+                            <p style="text-align: center; color: white;">REANIMATE is here to stay, we will be showing you what we have been up to, what we are  doing and what we are about to do.  Projects, interiors,  renovations,  consultations, designs, 3D illustrations, inspirations, and decor moods alongside pictures, videos, and stills.</p>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div class="row box-1 wow bounceInUp center" data-wow-duration="3s">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="#architecture"><img src="{% static 'img/arlink.png' %}" alt= "..." style= "width: 200px; height:70px;"></a>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="#interior"><img src="{% static 'img/ilink.png' %}" alt= "..." style= "width: 250px; height:70px;"></a>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="#3dvisual"><img src="{% static 'img/3link.png' %}" alt= "..." style= "margin-left: 40px; width: 260px; height:70px;"></a>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="#furniture"><img src="{% static 'img/flink.png' %}" alt= "..." style= "margin-left: 70px; width: 260px; height:70px;"></a>
+                        </div>
+                        <!-- box-1 wow bounceInUp center" data-wow-duration="2s -->
+                        <!-- "box-1 wow wow bounceInLeft" data-wow-duration="3s -->
+                        <!-- box-1 wow  wow bounceInRight" data-wow-duration="4s -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/archi/Archi.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="architecture">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <br/>
+                        <br/>
+                        <br/>
+                            <div id="carouselSlide1" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="10000">
+                                  <img src="{% static 'img/archi/start.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="{% static 'img/archi/a1.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="{% static 'img/archi/a2.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="{% static 'img/archi/a3.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="{% static 'img/archi/a4.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a5.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a6.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a7.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a8.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a9.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a10.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a11.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a12.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a13.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a14.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a15.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a16.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a17.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a18.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a19.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a20.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a21.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a22.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a23.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a24.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a25.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a26.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/archi/a27.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselSlide1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselSlide1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>                
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/interior/Int.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="interior">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div id="carouselSlide2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-interval="10000">
+                                    <img src="{% static 'img/interior/start.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-interval="2000">
+                                    <img src="{% static 'img/interior/i1.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/interior/i2.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/interior/i3.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/interior/i4.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i5.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i6.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i7.jpg' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i8.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i9.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i10.jpg' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i11.jpg' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i12.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i13.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i14.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i15.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i16.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i17.jpg' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i18.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i19.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i20.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i21.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i22.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i23.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i24.jpg' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i25.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i26.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i27.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i28.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="{% static 'img/interior/i29.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{% static 'img/interior/i30.png' %}" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselSlide2" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselSlide2" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/3D/vd.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="3dvisual">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div id="carouselSlide3" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-interval="10000">
+                                    <video width= "640" height="360" controls="controls">
+                                      <source src="{% static 'img/animation/1.mp4' %}"  >
+                                    </video> 
+                                  </div>
+                                  <!-- <div class="carousel-item" data-interval="2000">
+                                    <img src="{% static 'img/3D/d1.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d2.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d3.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d4.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d5.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d6.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d7.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d8.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d9.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d10.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d11.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d12.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d13.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d14.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d15.jpg' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d16.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d17.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d18.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d19.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d20.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d21.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d22.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d23.png' %}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="{% static 'img/3D/d24.png' %}" class="d-block w-100" alt="...">
+                                  </div> -->
+                                  <div class="carousel-item">
+                                    <video width= "640" height="360" controls="controls">
+                                      <source src="{% static 'img/animation/2.mp4' %}"  >
+                                    </video> 
+                                  </div>
+                                  <div class="carousel-item">
+                                    <video width= "640" height="360" controls="controls">
+                                      <source src="{% static 'img/animation/3.mp4' %}"  >
+                                    </video> 
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselSlide3" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselSlide3" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                              <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/furniture/furn.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+      <div class="section">
+          <div class="center">
+              <div class="sectionHeader" id="furniture">
+                  <div class="row">
+                      <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                          <br/>
+                          <br/>
+                          <br/>
+                          <div id="carouselSlide4" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="10000">
+                                  <img src="{% static 'img/furniture/start.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="{% static 'img/furniture/d1.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="{% static 'img/furniture/d2.jpg' %}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="{% static 'img/furniture/d3.png' %}" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselSlide4" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselSlide4" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                            <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      </div>
+                      <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+    <!-- <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+              <h5 class="header col s12 light">bla bla bla</h5>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="" alt="..."></div>
+    </div> -->
+    <div class="jumbotron" style= "background-color: grey; opacity: 1; background-image: url('/static/img/end.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="section">
+            <div class="center">
+                <div class="sectionHeader" id="contactus">
+                  <div class="row">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                      <br>
+                      <br>
+                      <br>
+                        <form action="/enquiries" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label style="color: #eab23d;">First name</label>
+                                <input type="text" name="form_first_name" id="" class="form-control" >
+                                <label style="color: #eab23d;">Last name</label>
+                                <input type="text" name="form_last_name" id="" class="form-control" >
+                                <label style="color: #eab23d;">Email</label>
+                                <input type="email" name="form_email"  id="" class="form-control" >
+                                <label style="color: #eab23d;">Subject</label>
+                                <input type="text" name="form_subject" id="" class="form-control" >
+                                <label style="color: #eab23d;">Message</label>
+                                <textarea name="form_desc" id="" cols="30" rows="5" placeholder="Please share comment" class="form-control"></textarea>
+                                <br>
+                                <input type="submit" value= "Ask Us" class="btn btn-primary" > 
+                            </div>
+                        <br>
+                        <br>
+                        </form>
+                    </div>
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="box-1 wow bounceInUp center" data-wow-duration="2s" data-wow-delay="0s">
+                            <h2 class="display-4" style="text-align: left; color: #eab23d">If you have any project in mind, send your enquiry.</h2>
+                        </div> 
+                        {% if messages %}
+                    <ul class="messages">    
+                        {% for message in messages %}    
+                            <ol style="color: red;" {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</ol>    
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    </div>
+                </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/page.js' %}"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/init.js"></script> -->
+</body>
+</html>
